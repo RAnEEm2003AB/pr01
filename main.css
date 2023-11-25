@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    width:calc(100% - 120px);
+    margin: auto;
+}
+body{
+    background-color:rgb(239, 226, 245)
+}
+header{
+    background-color: #fff;
+    box-shadow:0PX 0PX 5PX 0PX rgba(0, 0, 0, 1) ;
+    
+}
+.active{
+    font-weight: 700;
+}
+header .sum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height:40px;
+    flex-wrap: wrap;
+    
+}
+header .logo{
+   display: flex; 
+   gap: 10px;
+}
+
+.logo p{
+    color: #545BE8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+header .list{
+    display: flex;
+    list-style-type:none;
+}
+header .list li{
+    margin-left: 15px;
+}
+header .list a{
+    text-decoration: none;
+    color: #101928;
+    font-family: 'Poppins', sans-serif
+}
+.header .submit {
+    display: flex;
+    flex-wrap: wrap;  
+}
+.submit .login{
+    border:0.5px #545BE8 solid ;
+    background-color: #fff;
+    padding: 5px 20px;
+}
+.submit .register{
+background-color: #545BE8;
+color: #fff;
+width: 70px;
+}
+header .submit a{
+    text-decoration: none;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 6px 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
